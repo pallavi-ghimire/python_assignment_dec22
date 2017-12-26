@@ -1,0 +1,5 @@
+li = list()
+st = input("Enter a string separated by commas: ")
+li = st.split(sep = ',')
+li.sort()
+print(li)
